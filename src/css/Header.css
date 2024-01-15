@@ -1,0 +1,21 @@
+.encabezado-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 2em;
+}
+
+.formulario-busqueda{
+    
+}
+
+.barra-busqueda{
+    padding: 0.5em;
+    background-color: white;
+    border: none;
+}
+
+.boton-enviar{
+    padding: 0.4em;
+}

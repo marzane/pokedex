@@ -1,11 +1,20 @@
 import React from 'react';
+import {Route, Routes, BrowserRouter as Router} from "react-router-dom";
+import {Items, Pokemon, Pokemons} from "./pages";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Pokedex</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/pokemons/:name' element={<Pokemon />}/>
+          <Route path='/items' element={<Items />}/>
+          <Route path='/' element={<Pokemons />}/>
+        </Routes>
+      </div>
+    </Router>
+
   );
 }
 
