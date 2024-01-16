@@ -1,21 +1,23 @@
-.encabezado-app{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: aquamarine;
-    padding: 2em;
+    padding: 1em;
 }
 
-.formulario-busqueda{
-    
+.formulario{
+    width: 90%;
 }
 
-.barra-busqueda{
+.barraBusqueda{
     padding: 0.5em;
     background-color: white;
     border: none;
+    width: 100%;
+    font-size: 1.2em;
 }
 
-.boton-enviar{
+.botonEnviar{
     padding: 0.4em;
 }

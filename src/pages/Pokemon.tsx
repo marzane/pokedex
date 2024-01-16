@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 function Pokemon () {
-    const name = useParams();
+    const { name } = useParams();
     return (
-        <>{name}</>
+        <h1>{name}</h1>
     );
 }
 

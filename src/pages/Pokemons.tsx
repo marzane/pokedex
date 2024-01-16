@@ -1,11 +1,17 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useState } from "react";
 
 function Pokemons () {
+
+    const [query, setQuery] = useState("");
+
     return (
         <>
-        <Header />
+        <Header 
+            query={query}
+            setQuery={setQuery}/>
         
         <main>
             <h1>Pokemons</h1>
