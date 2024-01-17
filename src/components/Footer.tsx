@@ -12,7 +12,7 @@ function Footer () {
                 <img src={pokemonPik} alt="" title="pokemons" className={styles.img}/>
                 Pokemons
             </Link>
-            <Link to={"/items"} className={styles.link}>
+            <Link to={"/items"} className={styles.link} onClick={e => e.preventDefault()}>
                 <img src={pokemonPok} alt="" title="items" className={styles.img}/>
                 Items (not available)
             </Link>

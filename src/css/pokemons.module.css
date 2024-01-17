@@ -1,0 +1,17 @@
+.pokemonLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    padding: 0.8em;
+  }
+
+.pokemonTexto span{
+    margin-right: 1em;
+}
+
+.pokemonImg{
+    margin-right: 1em;
+}

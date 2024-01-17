@@ -4,6 +4,7 @@
     justify-content: center;
     background-color: aquamarine;
     padding: 1em;
+    border-bottom: 5px solid gray;
 }
 
 .formulario{
