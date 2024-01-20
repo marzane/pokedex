@@ -1,0 +1,10 @@
+.loadingScreen{
+    display: grid;
+    place-items: center;
+    background-color: rgb(209, 209, 209);
+    flex: 1;
+}
+
+.loadingImg{
+    width: 10em;
+}

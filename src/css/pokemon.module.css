@@ -1,0 +1,32 @@
+.botonBack img{
+    width: 3em;
+    margin: 0.5em;
+
+}
+
+.botonBack{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+}
+
+
+.pokemonInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2em;
+    font-size: 1.3em;
+}
+
+.pokemonName{
+    font-size: 2em;
+}
+
+.pokemonImg{
+    width: 8em;
+    margin: 1em;
+}
