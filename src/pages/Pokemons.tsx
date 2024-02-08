@@ -37,7 +37,6 @@ function Pokemons () {
 
     const filterPokemon = pokemons?.slice(0, 151).filter((pokemon: Pokemon) => {
             return (pokemon.name.toLowerCase()).match(query.toLowerCase());
-            //return pokemon.name.toLowerCase() == query.toLowerCase();
 
         });
     
