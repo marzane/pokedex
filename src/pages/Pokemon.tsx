@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import pokeballImg from "../img/pokeball.png";
 import styles from "../css/pokemon.module.css";
-import bulbasaurImg from "../img/bulbasaur.gif";
 import { PokemonInfo } from "../types/types";
 import { fetchPokemon } from "../api/fetchPokemon";
 import LoadingScreen from "../components/LoadingScreen";
